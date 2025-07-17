@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const button = document.getElementById("generateBtn");
   const container = document.getElementById("slide-container");
 
-const qaPairs = [
+/*const qaPairs = [
   { q: "Just Do It", a: "Nike" },
   { q: "I'm Lovin' It", a: "McDonald's" },
   { q: "Think Different", a: "Apple" },
@@ -36,7 +36,44 @@ const qaPairs = [
   { q: "Aam Aadmi ka Budget", a: "Big Bazaar" },
   { q: "Taste of India", a: "Amul" },
   { q: "Express Yourself", a: "Airtel" }
+];*/
+
+const qaPairs = [
+  { q: "Saadhanam Kaiyyil undo?", a: "Akkare Akkare Akkare" },
+  { q: "Kochi pazhaya kochiyellennariyam… pakshe Bilal pazhaya Bilal thanneya", a: "Big B" },
+  { q: "…namukku chodichu chodichu pokaam. Namukku chodichu chodichu chodichu pokam.", a: "Ayal Kadha Ezhuthukayaanu" },
+  { q: "Sagar… alias… Jacky", a: "Irupathaam Noottandu" },
+  { q: "Ithalla ithinapparam chaadi kadannavananee K.K. Joseph!", a: "Vietnam Colony" },
+  { q: "My phone number is double-two double-five", a: "Rajavinte Makan" },
+  { q: "Kaakka thoori…", a: "In Harihar Nagar" },
+  { q: "Varrierey… Enthado njan inganey aayi poyathu?", a: "Devasuram" },
+  { q: "Adichu mole!", a: "Kilukkam" },
+  { q: "Nee Po Mone… Dinesha!", a: "Narasimham" },
+  { q: "Eda Vijaya? Enthada Daasa?", a: "Nadodikkattu" },
+  { q: "Ellathinum Athindhedaaya Samayamundu Daasa", a: "Nadodikkattu" },
+  { q: "Angane Pavanayi Shavamayi", a: "Nadodikkattu" },
+  { q: "Eda Daasa, etha ee alavalathi?", a: "Nadodikkattu" },
+  { q: "Enthokke bahalam aayirunnu? Malappuram katthi, machine gun…", a: "Nadodikkattu" },
+  { q: "Lavan Puliyanu Ketta", a: "Rajamanikyam" },
+  { q: "Pazhasshiyude yudhangal Company Kanan Povunnatheyuloo", a: "Kerala Varma Pazhassi Raja" },
+  { q: "Karnan Neopolean Bhagat Singh, Ivar moonuperumanu ente heroes", a: "7th Day" },
+  { q: "Ente pinnale nadakanallo, oppam nadakananu enikishtam", a: "Bangalore Days" },
+  { q: "Java simplaanu powerfulaanu", a: "Premam" },
+  { q: "Ithiri kanji edukatte Manikya", a: "Odiyan" },
+  { q: "Thante thantha alla ente thantha", a: "Lucifer" },
+  { q: "Budhiyanu sire ivante main", a: "Thanneer Mathan Dinangal" },
+  { q: "Pani varunnund Avaracha", a: "Trance" },
+  { q: "Babu Moshai, zindagi badi honi chahiye, lambi nahi.", a: "Anand" },
+  { q: "Tumhara naam kya hai, Basanti?", a: "Sholay" },
+  { q: "Don ko pakadna mushkil hi nahi, namumkin hai.", a: "Don" },
+  { q: "Rishte mein toh hum tumhare baap lagte hain, naam hai Shahenshah.", a: "Shahenshah" },
+  { q: "All is well.", a: "3 Idiots" },
+  { q: "Ek chutki sindoor ki keemat tum kya jaano, Ramesh babu?", a: "Om Shanti Om" },
+  { q: "Tareekh pe tareekh, tareekh pe tareekh!", a: "Damini" },
+  { q: "Kabhi kabhi kuch jeetne ke liye kuch harna padta hai.", a: "Chak De! India" },
+  { q: "Main apni favourite hoon!", a: "Jab We Met" }
 ];
+
 
 
   const intro = document.getElementById("introScreen");
