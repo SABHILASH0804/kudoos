@@ -15,8 +15,8 @@ body {
 .slide-container {
   display: grid;
   gap: 10px;
-  width: 600px;
-  height: 400px;
+  width: 840px; /* Increased by 40% */
+  height: 560px; /* Increased by 40% */
   perspective: 1000px;
 }
 
@@ -28,7 +28,6 @@ body {
   transition: transform 0.8s;
   cursor: pointer;
 }
-
 .flip-card.flipped {
   transform: rotateY(180deg);
 }
