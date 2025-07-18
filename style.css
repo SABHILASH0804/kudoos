@@ -15,8 +15,8 @@ body {
 .slide-container {
   display: grid;
   gap: 10px;
-  width: 840px; /* Increased by 40% */
-  height: 560px; /* Increased by 40% */
+  width: 980px; /* Increased by 40% */
+  height: 600px; /* Increased by 40% */
   perspective: 1000px;
 }
 
